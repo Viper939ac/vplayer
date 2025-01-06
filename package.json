@@ -1,0 +1,41 @@
+{
+  "name": "vplayer",
+  "version": "1.0.0",
+  "description": "A video player made in electron",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viper939ac/vplayer.git"
+  },
+  "keywords": [
+    "video"
+  ],
+  "author": "Viper939",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Viper939ac/vplayer/issues"
+  },
+  "homepage": "https://github.com/Viper939ac/vplayer#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "33.3.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
